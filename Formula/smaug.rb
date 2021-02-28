@@ -15,6 +15,6 @@ class Smaug < Formula
   end
 
   test do
-    assert_match "dragonruby", shell_output(bin/"smaug", 2)
+    assert shell_output(bin/"smaug", 2)
   end
 end
