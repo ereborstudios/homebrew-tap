@@ -6,6 +6,7 @@ class Smaug < Formula
   license "AGPL-3.0-or-later"
 
   depends_on "rust" => :build
+  depends_on "openssl@1.1"
 
   def install
     cd "cli" do
