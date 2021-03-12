@@ -5,6 +5,11 @@ class Smaug < Formula
   sha256 "41666db78bd22ec2eea245690eb6e7ce7f66c9bf67a8138b3e3b99e757d53656"
   license "AGPL-3.0-or-later"
 
+  bottle do
+    root_url "https://github.com/ereborstudios/homebrew-tap/releases/download/smaug-0.2.0"
+    sha256 cellar: :any, catalina: "090b4b0a5843443be9f574a069da16cffd1fc67678de8710cdfefb97689038d8"
+  end
+
   depends_on "rust" => :build
   depends_on "openssl@1.1"
 
