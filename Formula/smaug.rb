@@ -2,7 +2,7 @@ class Smaug < Formula
   desc "Manages your DragonRuby Game Toolkit projects"
   homepage "https://smaug.dev"
   url "https://github.com/ereborstudios/smaug/archive/v0.3.1.tar.gz"
-  sha256 "adda2f5ab6df2ff9c84a1679143d23735a6b98dc5d8aac8fdd6962a436c68ca0"
+  sha256 "fb23ed16b419c299e1b96215250b8d2df272fc4efbc56cea72c840b3668bf907"
   license "AGPL-3.0-or-later"
 
   depends_on "rust" => :build
